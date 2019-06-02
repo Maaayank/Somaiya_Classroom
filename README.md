@@ -2,9 +2,12 @@
 
 [![HitCount](http://hits.dwyl.io/arghyadeep99/Project-Somaiya-Classroom.svg)](http://hits.dwyl.io/arghyadeep99/Project-Somaiya-Classroom) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
+---
+
 ### Contributers :
 This Project was Created by Selected group of students under the guidance of Prof. Anjali Chachra 
 
+---
 
 #### An interactive platform for both Professors and Students!
 ![Somaiya Classroom](/app/src/main/res/drawable/kjsce.png) 
@@ -17,6 +20,7 @@ This Project was Created by Selected group of students under the guidance of Pro
 * Students can retrieve Past papers and it's solutions.
 * Teachers can set reminders for Viva, Quizzes, Practicals, Lecture cancellations and Tutorials.
 * Night mode added for reducing strain on eyes while using the app during night time or in low light environment. 
+
 ---
 
 #### This project is still under development, so you can also contribute to this Project as follows:
