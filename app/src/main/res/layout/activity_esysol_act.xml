@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="#ffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/TEXT_stu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Please Pay to Access:"
+        android:textAlignment="center"
+        android:textColor="#01579b"
+        android:textSize="25sp"
+        app:fontFamily="@font/roboto_slab"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/proceed_to_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/button_shape"
+        android:text="   Proceed to Net Banking   "
+        android:inputType="text"
+        android:textSize="17sp"
+        app:fontFamily="@font/roboto_slab"
+        android:onClick="Pay"
+        android:textColor="#ffff" />
+        <Button
+            android:id="@+id/btnPayNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:text="   Proceed to PayPal   "
+            android:inputType="text"
+            android:textSize="17sp"
+            app:fontFamily="@font/roboto_slab"
+
+
+            android:textColor="#ffff" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/TEXT_stu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/listview"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:fontFamily="@font/roboto_slab"
+        android:gravity="center"
+        android:text="Course Material"
+        android:textAlignment="center"
+        android:textColor="#01579b"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+   <!-- <Button
+        android:id="@+id/button6"
+        android:layout_width="159dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:inputType="text"
+        android:text="Upload"
+        android:onClick="open_upload"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        app:fontFamily="@font/roboto_slab" />-->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:divider="@drawable/divider"
+        android:dividerHeight="35dp"
+        android:paddingTop="70dp" />
+</RelativeLayout>

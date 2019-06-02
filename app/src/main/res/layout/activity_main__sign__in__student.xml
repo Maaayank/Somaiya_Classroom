@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Sign_In_Student"
+    android:orientation="vertical"
+    android:background="#ffff">
+
+
+        <TextView
+            android:id="@+id/sample_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Sign In via SVV or G+"
+            android:textAlignment="center"
+            android:textColor="#404040"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/roboto_slab" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/svv" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/g_plus" />
+
+        </LinearLayout>
+
+
+
+   <!--     <EditText
+            android:id="@+id/student_name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:hint="Enter your name..."
+            app:fontFamily="@font/roboto_slab"/>
+
+        <EditText
+            android:id="@+id/student_email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:hint="Enter your mail..."
+            app:fontFamily="@font/roboto_slab"/> -->
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/signin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="125dp"
+            android:paddingTop="0dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="20dp"
+            android:textSize="17sp"
+            android:background="#0020"/>
+
+        <!--<LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp">
+
+            <android.widget.Switch
+                android:id="@+id/switch1"
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:switchPadding="15dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="272dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Increase Size by 25%"
+                android:layout_marginTop="10dp"
+                android:textColor="#404040"
+                android:textSize="18sp"
+                app:fontFamily="@font/roboto_slab" />
+        </LinearLayout>-->
+</LinearLayout>

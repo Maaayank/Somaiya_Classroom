@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Sign_In"
+    android:background="#ffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/sample_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="80dp"
+            android:text="Sign In via SVV or G+"
+            android:textAlignment="center"
+            android:textColor="#404040"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/roboto_slab" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+            <ImageView
+                android:src="@drawable/svv"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:src="@drawable/g_plus"
+                android:layout_marginTop="10dp"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:id="@+id/password_prof"
+            android:hint="Passcode"
+            android:inputType="textPassword"/>
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/SignIn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="0dp"
+            android:textSize="17sp"
+            app:fontFamily="@font/roboto_slab" />
+
+    </LinearLayout>
+</LinearLayout>
